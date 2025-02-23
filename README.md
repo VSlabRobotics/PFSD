@@ -1,4 +1,4 @@
-# PFSD
+# PFSD: A Multi-Modal Pedestrian-Focus Scene Dataset for Rich Tasks in Semi-Structured Environments
 
 This is the official website to post information about ***PFSD***. For more details, please refer to: xxx
 
@@ -30,4 +30,4 @@ python train.py --cfg_file cfgs/nuscenes_models/hmfn.yaml
 ```
 
 ## License
-1
+All datasets are published under the Creative Commons Attribution-NonCommercial-ShareAlike. This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license.
