@@ -1,6 +1,8 @@
 # PFSD: A Multi-Modal Pedestrian-Focus Scene Dataset for Rich Tasks in Semi-Structured Environments
 
-This is the official website to post information about ***PFSD***. For more details, please refer to: xxx
+This is the official website to post information about ***PFSD***. For more details, please refer to: 
+
+**PFSD [[Paper](https://arxiv.org/abs/2502.15342)]** <br />
 
 The link to get dataset: https://pan.baidu.com/s/19DN4csVlMnrIYOKByBrZvQ 
 Code: pfsd
