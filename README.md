@@ -23,7 +23,7 @@ Code: pfsd
 <img src="images/tracking2.png" alt="Tracking" width="500">
 
 ## Model Architecture
-<img src="images/HMFN-arch1.png" alt="arch" width="500">
+<img src="images/HMFN-arch1.png" alt="arch" width="900">
 
 We propose the Hybrid Multi-Scale Fusion Network (HMFN), a novel architecture specifically designed to leverage the rich pedestrian data from multi-scale features. HMFN can act as a simple baseline that combines features extracted by PillarNet across different scales through advanced upsampling and attention mechanisms before passing them to a CenterHead detection module. This design enables precise pedestrian detection by combining fine-grained and macro-level features, even in challenging scenarios.
 
