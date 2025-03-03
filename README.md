@@ -1,6 +1,6 @@
 # PFSD: A Multi-Modal Pedestrian-Focus Scene Dataset for Rich Tasks in Semi-Structured Environments
 
-This is the official website to post information about ***PFSD***. For more details, please refer to: **PFSD [[Paper](https://arxiv.org/abs/2502.15342)]** <br />
+This is the official website to post information about ***PFSD***. For more details, please refer to:  [[Paper](https://arxiv.org/abs/2502.15342)] <br />
 
 The **Pedestrian-Focused Scene Dataset (PFSD)** is a multi-modal dataset designed to enhance pedestrian perception. Unlike conventional datasets that emphasize vehicular traffic, PFSD focuses on **dense pedestrian interactions** in **semi-structured scenes**, where pedestrians exhibit dynamic and complex behavior.
 
@@ -14,16 +14,16 @@ Code: pfsd
 - **Challenging scenarios**: Captures **real-world pedestrian behavior**, including crowd movement, occlusions, and interactions.
 
 ### For Segmentation
-![Segmentation](images/segmentation+img.png)
+<img src="images/segmentation+img.png" alt="Segmentation" width="500">
 
 ### For Detection
-![Detection](images/detection.png)
+<img src="images/detection.png" alt="Detection" width="500">
 
 ### For Tracking
-![Tracking](images/tracking2.png)
+<img src="images/tracking2.png" alt="Tracking" width="500">
 
 ## Model Architecture
-![HMFN](images/HMFN-arch1.png)
+<img src="images/HMFN-arch1.png" alt="arch" width="500">
 
 We propose the Hybrid Multi-Scale Fusion Network (HMFN), a novel architecture specifically designed to leverage the rich pedestrian data from multi-scale features. HMFN can act as a simple baseline that combines features extracted by PillarNet across different scales through advanced upsampling and attention mechanisms before passing them to a CenterHead detection module. This design enables precise pedestrian detection by combining fine-grained and macro-level features, even in challenging scenarios.
 
