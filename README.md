@@ -1,11 +1,26 @@
 # PFSD: A Multi-Modal Pedestrian-Focus Scene Dataset for Rich Tasks in Semi-Structured Environments
 
-This is the official website to post information about ***PFSD***. For more details, please refer to: 
+This is the official website to post information about ***PFSD***. For more details, please refer to: **PFSD [[Paper](https://arxiv.org/abs/2502.15342)]** <br />
 
-**PFSD [[Paper](https://arxiv.org/abs/2502.15342)]** <br />
+The **Pedestrian-Focused Scene Dataset (PFSD)** is a multi-modal dataset designed to enhance pedestrian perception. Unlike conventional datasets that emphasize vehicular traffic, PFSD focuses on **dense pedestrian interactions** in **semi-structured scenes**, where pedestrians exhibit dynamic and complex behavior.
 
 The link to get dataset: https://pan.baidu.com/s/19DN4csVlMnrIYOKByBrZvQ 
 Code: pfsd
+
+## Key Features
+- **Multi-modal sensor data**: LiDAR and camera-based annotations in the **nuScenes format** for compatibility with modern perception frameworks.
+- **Dense pedestrian annotations**: High-resolution labeling of pedestrian movement in real-world urban settings.
+- **Support for multiple tasks**: Enables **detection, tracking, and segmentation** in one dataset.
+- **Challenging scenarios**: Captures **real-world pedestrian behavior**, including crowd movement, occlusions, and interactions.
+
+### For Segmentation
+![PFSD Scenes](images/segmentation+img.png)
+
+### For Detection
+![PFSD Scenes](images/detection.png)
+
+### For Tracking
+![PFSD Scenes](images/tracking2.png)
 
 ## Getting Started
 ### Installation
