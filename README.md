@@ -14,16 +14,16 @@ Code: pfsd
 - **Challenging scenarios**: Captures **real-world pedestrian behavior**, including crowd movement, occlusions, and interactions.
 
 ### For Segmentation
-![Segmentation](images/segmentation+img.pdf)
+![Segmentation](images/segmentation+img.png)
 
 ### For Detection
-![Detection](images/detection.pdf)
+![Detection](images/detection.png)
 
 ### For Tracking
-![Tracking](images/tracking2.pdf)
+![Tracking](images/tracking2.png)
 
 ## Model Architecture
-![HMFN](images/HMFN-arch1.pdf)
+![HMFN](images/HMFN-arch1.png)
 
 We propose the Hybrid Multi-Scale Fusion Network (HMFN), a novel architecture specifically designed to leverage the rich pedestrian data from multi-scale features. HMFN can act as a simple baseline that combines features extracted by PillarNet across different scales through advanced upsampling and attention mechanisms before passing them to a CenterHead detection module. This design enables precise pedestrian detection by combining fine-grained and macro-level features, even in challenging scenarios.
 
